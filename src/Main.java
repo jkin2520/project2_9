@@ -7,4 +7,8 @@ public class Main {
                      .filter(n -> n % 2 == 0)
                      .collect(Collectors.toList());
     }
+    public static String convertToUpperCase(String input) {
+        return input.toUpperCase();
+    }
+    
 }
