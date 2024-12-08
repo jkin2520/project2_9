@@ -9,4 +9,11 @@ public class MainTest {
         List<Integer> expected = List.of(2, 4, 6);
         assertEquals(expected, Main.getEvenNumbers(input));
     }
+    @Test
+public void testConvertToUpperCase() {
+    String input = "hello world";
+    String expected = "HELLO WORLD";
+    assertEquals(expected, Main.convertToUpperCase(input));
+}
+
 }
