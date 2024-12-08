@@ -15,5 +15,12 @@ public void testConvertToUpperCase() {
     String expected = "HELLO WORLD";
     assertEquals(expected, Main.convertToUpperCase(input));
 }
+@Test
+public void testGetLongestString() {
+    List<String> input = List.of("apple", "banana", "cherry");
+    String expected = "banana";
+    assertEquals(expected, Main.getLongestString(input));
+}
+
 
 }
